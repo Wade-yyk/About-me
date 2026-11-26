@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ke (Wade) Yang is an MEng student at the University of Waterloo interested in computer vision, vision-language models, and multimodal representation learning.">
+  <meta name="theme-color" content="#173d59">
+  <meta property="og:title" content="Ke (Wade) Yang | Academic Homepage">
+  <meta property="og:description" content="Computer vision, vision-language models, and multimodal representation learning. Selected projects and academic background.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://wade-yyk.github.io/About-me/">
+  <link rel="canonical" href="https://wade-yyk.github.io/About-me/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <title>Ke (Wade) Yang | Academic Homepage</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="page">
+    <aside class="profile" aria-label="Profile and navigation">
+      <a href="#about" class="wordmark" aria-label="Ke Yang, back to introduction">WY<span>.</span></a>
+      <div class="profile-heading">
+        <h1>Ke <span>(Wade)</span><br> Yang</h1>
+        <p class="position">MEng student<br> University of Waterloo</p>
+        <p class="location">Waterloo, Ontario, Canada</p>
+      </div>
+      <nav class="section-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Selected projects</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="profile-links">
+        <a class="cv-link" href="assets/Ke_Yang_CV.pdf" target="_blank" rel="noopener">Curriculum vitae <span>PDF</span></a>
+        <div class="social-links">
+          <a href="https://github.com/Wade-yyk" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/ke-yang-6a8b082aa/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="mailto:k238yang@uwaterloo.ca">Email</a>
+        </div>
+      </div>
+    </aside>
+
+    <main id="main">
+      <section class="intro" id="about" aria-labelledby="about-title">
+        <p class="eyebrow">Computer vision &amp; multimodal learning</p>
+        <h2 id="about-title">Learning to see.<br><em>Connecting modalities.</em></h2>
+        <div class="about-copy">
+          <p>I am an MEng student in Systems Design Engineering at the <strong>University of Waterloo</strong>, where I previously completed a Bachelor of Computer Science with Distinction and an Artificial Intelligence Specialization.</p>
+          <p>My interests include <strong>computer vision</strong>, <strong>vision-language models</strong>, and <strong>multimodal representation learning</strong>. My projects span object detection, language-model adaptation, and the evaluation of AI systems.</p>
+        </div>
+        <div class="interests" aria-label="Research interests">
+          <span>Computer vision</span><span>Vision-language models</span><span>Multimodal learning</span>
+        </div>
+      </section>
+
+      <section id="projects" aria-labelledby="projects-title">
+        <div class="section-heading"><h2 id="projects-title">Selected projects</h2><span>2025–2026</span></div>
+        <article class="project">
+          <div class="project-category">Computer vision <span>Feb–Apr 2026</span></div>
+          <h3>Timmies Cup Detection</h3>
+          <p>Built a YOLOv8 object detector using a custom dataset of <strong>2,206 images</strong>. Combined annotation review, dataset versioning, CLIP/UMAP analysis, and experiment tracking to examine class overlap, distribution gaps, and augmentation effects.</p>
+          <p class="tools">PyTorch · YOLOv8 · CLIP · DVC · MLflow · Optuna</p>
+          <details><summary>Implementation notes</summary><div class="detail-copy"><p>Tracked experiments with MLflow and tuned optimization and augmentation settings across 15 Optuna trials. Evaluated augmentation effects on a held-out test split.</p></div></details>
+        </article>
+        <article class="project">
+          <div class="project-category">Language models <span>Dec 2025–Jun 2026</span></div>
+          <h3>Character-Consistent LLM Fine-Tuning</h3>
+          <p>Adapted Qwen1.5 7B/14B models using LoRA/QLoRA and more than <strong>2,000 OCR-derived instruction examples</strong>. Built a local chatbot with retrieval, conversational memory, controllable prompting, and WeChat integration.</p>
+          <p class="tools">Qwen1.5 · LoRA / QLoRA · RAG · OCR</p>
+        </article>
+        <article class="project">
+          <div class="project-category">AI evaluation &amp; security <span>Jun–Aug 2026</span></div>
+          <h3>SkillGuard</h3>
+          <p>Built an LLM-assisted static-analysis framework for detecting prompt injection, unsafe execution, and behavioral mismatches in AI-agent skills. Evaluated the framework on <strong>49 skill packages</strong> using a label-isolated evaluation pipeline.</p>
+          <p class="tools">Python · LLMs · Static analysis · Evaluation</p>
+        </article>
+        <details class="other-projects">
+          <summary>More projects</summary>
+          <div class="detail-copy">
+            <article class="compact-project"><div class="project-category">Speech synthesis <span>Mar 2026</span></div><h3>Joint Speech and Singing Voice Generation</h3><p>Reproduced a VITS-based joint speech-and-singing synthesis model from its published specification. Implemented factorized speaker and pitch priors, a length regulator, and formant-perturbation training.</p><p class="tools">Python · PyTorch · VITS</p></article>
+            <article class="compact-project"><div class="project-category">Computer graphics <span>Mar 2025</span></div><h3>OpenGL Animation Engine</h3><p>Built a custom OpenGL engine and a 22-second Minecraft-style animation, with skeletal animation, keyframe motion, cel shading, particle systems, and post-processing motion blur.</p><p class="tools">C++ · OpenGL · GLSL · Python</p></article>
+          </div>
+        </details>
+        <p class="section-note">Code and other work: <a href="https://github.com/Wade-yyk" target="_blank" rel="noopener">GitHub profile</a>.</p>
+      </section>
+
+      <section id="education" aria-labelledby="education-title">
+        <div class="section-heading"><h2 id="education-title">Education</h2></div>
+        <article class="timeline-entry"><div><h3>University of Waterloo</h3><p>Master of Engineering<br>Systems Design Engineering</p><p class="muted">Expected completion: December 2026</p></div><p class="entry-date">2025–2026</p></article>
+        <article class="timeline-entry"><div><h3>University of Waterloo</h3><p>Bachelor of Computer Science, Honours<br>with Distinction</p><p class="muted">Artificial Intelligence Specialization</p></div><p class="entry-date">2020–2025</p></article>
+        <div class="honors"><h3>Selected honors</h3><p>President’s Scholarship, 2021<br>Term Distinction in seven academic terms, 2021–2024</p></div>
+      </section>
+
+      <section id="experience" aria-labelledby="experience-title">
+        <div class="section-heading"><h2 id="experience-title">Experience</h2></div>
+        <article class="timeline-entry"><div><h3>Project Assistant</h3><p>Guangzhou Kinte Electric Industrial Co., Ltd.</p><p class="muted">Python document automation, testing documentation, and cross-team project coordination.</p></div><p class="entry-date">May–Jul 2024</p></article>
+        <article class="timeline-entry"><div><h3>Data Science Intern</h3><p>Jian Li (Startup)</p><p class="muted">Web data collection, normalization, validation, and deduplication using Selenium and Python.</p></div><p class="entry-date">Sep–Nov 2023</p></article>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <p class="eyebrow">Get in touch</p>
+        <h2 id="contact-title">Let’s connect.</h2>
+        <p>I welcome conversations about computer vision, multimodal learning, and research opportunities.</p>
+        <a class="contact-email" href="mailto:k238yang@uwaterloo.ca">k238yang@uwaterloo.ca</a>
+      </section>
+      <footer><span>© 2026 Ke (Wade) Yang</span><span>Updated November 2026</span></footer>
+    </main>
+  </div>
+</body>
+</html>
